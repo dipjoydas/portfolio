@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            *{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.header  {
+    background-image: url(header-bg.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+  
+
+}
+.body{
+    background-image: url(biography-bg.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+   
+}
+.nav{
+    background-image: url(latest-work-bg.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+   
+}
+.footer{
+    background-image: url(footer-bg.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+    width: 100vw;
+    height:50vh;
+    padding: 30px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.header , .body , .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+ .header .caption , .body .caption , .nav .caption{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 45%;
+    line-height: 30px;
+   
+    
+
+}
+ .header .image , .body .image , .nav .image{
+   
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 45%;
+    justify-content: center;
+}
+
+.nav .caption{
+    
+    flex-basis: 45%;
+   
+
+}
+ .nav-items .image{
+   
+    
+    flex-basis: 30%;
+    transform: scale(.95);
+    transform: all .5s;
+}
+.nav-items .image:hover{
+    transform: scale(1);
+
+}
+
+ .footer .caption {
+    width: 100%;
+    text-align: center;
+    line-height: 46px;
+
+}
+.button{ 
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    background-color:#ED2939 ;
+    border-radius: 5px;
+    padding: 7px;
+    margin:5px;
+    transform: scale(.95);
+}
+.button:hover{
+    transform: scale(1);
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="caption">
+                <h1>hellow I'm</h1>
+                <h1 style="color:#ED2939 ;">jack smith</h1>
+                You might saw me jumping , climbing building , and stopping trains .but nobody pays me a dime for that work . <br><a href="#" class="button">HIRE ME </a>
+
+
+            </div>
+            <div class="image" >
+                <img src="peter.png" style="object-fit:contain;">
+
+            </div>
+
+        </div>
+        <div class="body">
+            <div class="caption" style="order: 2;">
+                <h1>Biography</h1>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has  been the industry's standard dummy test ever since the 1500s , when an unknown printer took a gallery of type and scrambled it to make a type 
+               <br> <a href="#" class="button">Download Cv</a>
+
+                
+
+            </div>
+            <div class="image" style="order: 1;">
+                <img src="peter_dream.png" style="object-fit:contain;">
+
+            </div>
+
+        </div>
+        <div class="nav">
+            <div style="display: flex; align-items: center; justify-content: center;"><h1 > My latest work</h1></div>
+          <div class="nav-items">
+           
+            <div class="image" style="object-fit:contain;">
+                <img src="work-1.png" style="object-fit:contain;">
+                
+
+            </div>
+            <div class="image">
+                <img src="work-2.jpg" style="object-fit:contain;">
+
+            </div>
+            <div class="image">
+                <img src="work-3.jpg"style="object-fit:contain;">
+
+            </div>
+        </div>
+
+        </div>
+        <div class="footer">
+            <div class="caption">
+                <h1>What Client are say</h1>
+                <span>Bruce Moccy <br> Founder & <span style="font-variant: small-caps;">ceo</span> Alies</span><div> "Lorem ipsum is simply dummy text of the  printing and typesetting industry . Lorem ipsum "</div>
+                <a href="mailto:dipjoy488@gmail.com" class="button"> Leave me a message in the <br> dipjoy488@gmail.com</a>
+
+                
+
+            </div>
+            
+
+           
+
+        </div>
+    </body>
+</html>
